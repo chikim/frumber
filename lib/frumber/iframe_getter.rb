@@ -14,8 +14,9 @@ class Frumber
         when "soundcloud"
           Soundcloud.new(client_id: Provider::Soundcloud::CLIENT_ID).
             get('/oembed', url: url).html
+        when "nicovideo"
+          "<iframe width=\"#{width}\" height=\"#{(width*0.75).to_i}\" src=\"http://ext.nicovideo.jp/thumb_watch/#{url.split("/").last}?thumb_mode=html\" frameborder=\"0\" allowfullscreen></iframe>"
         else
-          ## TODO nicovideo
           nil
         end
       end
