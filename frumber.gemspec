@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name        = "frumber"
-  s.version     = "0.0.2"
+  s.version     = "0.0.3"
   s.date        = "2013-06-27"
   s.summary     = "Frumber"
   s.description = "Framgia's iframe and thumbnail getter"
-  s.authors     = ["ChiKim"]
+  s.authors     = ["ChiKim", "TungD"]
   s.email       = "nguyen.dang.huy@framgia.com"
   s.homepage    = "http://github.com/chikim/frumber"
   s.files       = [

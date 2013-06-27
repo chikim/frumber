@@ -1,0 +1,29 @@
+== FRUMBER
+
+== DESCRIPTION
+
+  Framgia's iframe and thumbnail getter.
+  This Ruby gem provide an easier way to get thumbnail and iframe source of URLs.
+
+== INSTALLATION & SETUP
+
+  $ gem install frumber
+
+or add this to your Gemfile
+
+  gem 'frumber'
+
+== HOW TO USE
+
+For iframe source getter
+  Frumber::IframeGetter.get(url, width)
+
+For thumbnail getter
+  Frumber::ThumbnailGetter.get(url)
+
+== CONTRIBUTORS
+
+  * [ChiKim](http://github.com/chikim)
+  * [TungD](http://github.com/tungd)
+
+== COPYRIGHT (c) 2013 Framgia Vietnam INC
