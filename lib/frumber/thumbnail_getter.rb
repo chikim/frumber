@@ -1,6 +1,8 @@
 class Frumber
-  class ThumbnailGetter < ::Frumber
+  class ThumbnailGetter
     class << self
+      include Frumber::HostChecker
+
       def get url
         begin
           case url_host(url)

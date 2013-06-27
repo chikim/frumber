@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = "frumber"
-  s.version     = "0.0.0"
-  s.date        = "2013-06-26"
+  s.version     = "0.0.1"
+  s.date        = "2013-06-27"
   s.summary     = "Frumber"
   s.description = "Framgia's iframe and thumbnail getter"
   s.authors     = ["ChiKim"]
@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://github.com/chikim/frumber"
   s.files       = [
     "lib/frumber.rb",
+    "lib/frumber/host_checker.rb",
     "lib/frumber/iframe_getter.rb",
     "lib/frumber/thumbnail_getter.rb",
     "lib/provider.rb",

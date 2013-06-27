@@ -1,8 +1,10 @@
 require 'oembed'
 
 class Frumber
-  class IframeGetter < ::Frumber
+  class IframeGetter
     class << self
+      include Frumber::HostChecker
+
       def get url, width = 800
         case url_host(url)
         when "youtube", "youtu"
